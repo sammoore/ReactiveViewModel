@@ -11,13 +11,13 @@ Pod::Spec.new do |s|
     'Josh Abernathy' => 'joshaber@gmail.com'
   }
 
-  s.ios.platform = :ios, '6.0'
+  s.ios.platform = :ios, '7.0'
   s.osx.platform = :iox, '10.8'
   s.requires_arc = true
 
   s.source = {
     :git => 'https://github.com/ReactiveCocoa/ReactiveViewModel.git',
-    :tag => s.version.to_s
+    :tag => "#(s.version)"
   }
   s.source_files = 'ReactiveViewModel/*.{h,m}' 
   s.dependency 'ReactiveCocoa', '~> 2.4'
