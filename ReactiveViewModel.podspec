@@ -22,7 +22,9 @@ Pod::Spec.new do |s|
   s.source_files = 'ReactiveViewModel/*.{h,m}' 
   s.dependency 'ReactiveCocoa', '~> 2.4'
   
-  }
-
-  s.prepare_command = 'find . \\( -regex '.*EXT.*\\.[mh]$' -o -regex '.*metamacros\\.[mh]$' \\) -execdir mv {} RAC{} \\;\nfind . -regex '.*\\.[hm]' -exec sed -i '' -E 's@\'(EXT.*|metamacros)\\.h\'@\'RAC\\1.h\'@' {} \\;\nfind . -regex '.*\\.[hm]' -exec sed -i '' -E 's@<ReactiveCocoa/(EXT.*)\\.h>@<ReactiveCocoa/RAC\\1.h>@' {} \\;\n'
+  s.prepare_command = <<-'END'
+    find . \( -regex '.*EXT.*\.[mh]$' -o -regex '.*metamacros\.[mh]$' \) -execdir mv {} RAC{} \;
+    find . -regex '.*\.[hm]' -exec sed -i '' -E 's@"(EXT.*|metamacros)\.h"@"RAC\1.h"@' {} \;
+    find . -regex '.*\.[hm]' -exec sed -i '' -E 's@<ReactiveCocoa/(EXT.*)\.h>@<ReactiveCocoa/RAC\1.h>@' {} \;
+  END
 end
