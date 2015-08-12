@@ -10,7 +10,7 @@
 		BEB7DA4419634C4700F69C4F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEB7DA4219634B5A00F69C4F /* XCTest.framework */; };
 		D0731B7219FEFE2A00C01E16 /* SwiftSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0731B7119FEFE2A00C01E16 /* SwiftSpec.swift */; };
 		D0731B7319FEFE2A00C01E16 /* SwiftSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0731B7119FEFE2A00C01E16 /* SwiftSpec.swift */; };
-		D0948A59178159AD00BA8F23 /* ReactiveViewModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0948A3B178159AD00BA8F23 /* ReactiveViewModel.framework */; };
+		D0948A59178159AD00BA8F23 /* .framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0948A3B178159AD00BA8F23 /* .framework */; };
 		D0948AB417815ABD00BA8F23 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0948AB317815ABD00BA8F23 /* Foundation.framework */; };
 		D0948AB517815AC200BA8F23 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0948AB317815ABD00BA8F23 /* Foundation.framework */; };
 		D0948ABA17815AF100BA8F23 /* ReactiveViewModel.h in Headers */ = {isa = PBXBuildFile; fileRef = D0948A4B178159AD00BA8F23 /* ReactiveViewModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -18,7 +18,7 @@
 		D0948B571781610600BA8F23 /* RVMViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D0948B541781610600BA8F23 /* RVMViewModel.m */; };
 		D0948B5A1781618A00BA8F23 /* RVMViewModelSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = D0948B591781618A00BA8F23 /* RVMViewModelSpec.m */; };
 		D0948B5E178161A800BA8F23 /* RVMTestViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D0948B5D178161A800BA8F23 /* RVMTestViewModel.m */; };
-		D0C7C3B219FEFB520069B5C0 /* ReactiveViewModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0C7C3A719FEFB520069B5C0 /* ReactiveViewModel.framework */; };
+		D0C7C3B219FEFB520069B5C0 /* .framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0C7C3A719FEFB520069B5C0 /* .framework */; };
 		D0C7C3C419FEFC1C0069B5C0 /* RVMViewModel.h in Headers */ = {isa = PBXBuildFile; fileRef = D0948B531781610600BA8F23 /* RVMViewModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D0C7C3C519FEFC1C0069B5C0 /* RVMViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D0948B541781610600BA8F23 /* RVMViewModel.m */; };
 		D0C7C3C619FEFC1F0069B5C0 /* ReactiveViewModel.h in Headers */ = {isa = PBXBuildFile; fileRef = D0948A4B178159AD00BA8F23 /* ReactiveViewModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -33,7 +33,7 @@
 		D0C7C3D619FEFD1B0069B5C0 /* ReactiveCocoa.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = D0C7C3C719FEFC7D0069B5C0 /* ReactiveCocoa.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D0C7C3D719FEFD1D0069B5C0 /* Nimble.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = D0C7C3D119FEFD040069B5C0 /* Nimble.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D0C7C3D819FEFD1F0069B5C0 /* Quick.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = D0C7C3CE19FEFCDF0069B5C0 /* Quick.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		D0C7C3DA19FEFD260069B5C0 /* ReactiveViewModel.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = D0948A3B178159AD00BA8F23 /* ReactiveViewModel.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D0C7C3DA19FEFD260069B5C0 /* .framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = D0948A3B178159AD00BA8F23 /* .framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,7 +63,7 @@
 				D0C7C3D619FEFD1B0069B5C0 /* ReactiveCocoa.framework in Copy Frameworks */,
 				D0C7C3D719FEFD1D0069B5C0 /* Nimble.framework in Copy Frameworks */,
 				D0C7C3D819FEFD1F0069B5C0 /* Quick.framework in Copy Frameworks */,
-				D0C7C3DA19FEFD260069B5C0 /* ReactiveViewModel.framework in Copy Frameworks */,
+				D0C7C3DA19FEFD260069B5C0 /* .framework in Copy Frameworks */,
 			);
 			name = "Copy Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -73,7 +73,7 @@
 /* Begin PBXFileReference section */
 		BEB7DA4219634B5A00F69C4F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		D0731B7119FEFE2A00C01E16 /* SwiftSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftSpec.swift; sourceTree = "<group>"; };
-		D0948A3B178159AD00BA8F23 /* ReactiveViewModel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ReactiveViewModel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0948A3B178159AD00BA8F23 /* .framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = .framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0948A46178159AD00BA8F23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D0948A4B178159AD00BA8F23 /* ReactiveViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReactiveViewModel.h; sourceTree = "<group>"; };
 		D0948A53178159AD00BA8F23 /* ReactiveViewModel Mac Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ReactiveViewModel Mac Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -104,7 +104,7 @@
 		D0948B5D178161A800BA8F23 /* RVMTestViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RVMTestViewModel.m; sourceTree = "<group>"; };
 		D0C7C39E19FEF8F60069B5C0 /* Framework.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = Framework.xcconfig; path = Carthage/Checkouts/xcconfigs/Base/Targets/Framework.xcconfig; sourceTree = SOURCE_ROOT; };
 		D0C7C39F19FEF8FC0069B5C0 /* iOS-Framework.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = "iOS-Framework.xcconfig"; path = "Carthage/Checkouts/xcconfigs/iOS/iOS-Framework.xcconfig"; sourceTree = SOURCE_ROOT; };
-		D0C7C3A719FEFB520069B5C0 /* ReactiveViewModel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ReactiveViewModel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0C7C3A719FEFB520069B5C0 /* .framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = .framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0C7C3B119FEFB520069B5C0 /* ReactiveViewModel iOS Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ReactiveViewModel iOS Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0C7C3C719FEFC7D0069B5C0 /* ReactiveCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ReactiveCocoa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0C7C3CE19FEFCDF0069B5C0 /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Quick.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -128,7 +128,7 @@
 				D0C7C3D219FEFD040069B5C0 /* Nimble.framework in Frameworks */,
 				D0C7C3D019FEFCDF0069B5C0 /* Quick.framework in Frameworks */,
 				BEB7DA4419634C4700F69C4F /* XCTest.framework in Frameworks */,
-				D0948A59178159AD00BA8F23 /* ReactiveViewModel.framework in Frameworks */,
+				D0948A59178159AD00BA8F23 /* .framework in Frameworks */,
 				D0948AB517815AC200BA8F23 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -145,7 +145,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0C7C3B219FEFB520069B5C0 /* ReactiveViewModel.framework in Frameworks */,
+				D0C7C3B219FEFB520069B5C0 /* .framework in Frameworks */,
 				D0C7C3D319FEFD040069B5C0 /* Nimble.framework in Frameworks */,
 				D0C7C3D419FEFD0A0069B5C0 /* Quick.framework in Frameworks */,
 			);
@@ -168,9 +168,9 @@
 		D0948A3C178159AD00BA8F23 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D0948A3B178159AD00BA8F23 /* ReactiveViewModel.framework */,
+				D0948A3B178159AD00BA8F23 /* .framework */,
 				D0948A53178159AD00BA8F23 /* ReactiveViewModel Mac Tests.xctest */,
-				D0C7C3A719FEFB520069B5C0 /* ReactiveViewModel.framework */,
+				D0C7C3A719FEFB520069B5C0 /* .framework */,
 				D0C7C3B119FEFB520069B5C0 /* ReactiveViewModel iOS Tests.xctest */,
 			);
 			name = Products;
@@ -350,7 +350,7 @@
 			);
 			name = "ReactiveViewModel Mac";
 			productName = ReactiveViewModel;
-			productReference = D0948A3B178159AD00BA8F23 /* ReactiveViewModel.framework */;
+			productReference = D0948A3B178159AD00BA8F23 /* .framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		D0948A52178159AD00BA8F23 /* ReactiveViewModel Mac Tests */ = {
@@ -386,7 +386,7 @@
 			);
 			name = "ReactiveViewModel iOS";
 			productName = ReactiveViewModel;
-			productReference = D0C7C3A719FEFB520069B5C0 /* ReactiveViewModel.framework */;
+			productReference = D0C7C3A719FEFB520069B5C0 /* .framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		D0C7C3B019FEFB520069B5C0 /* ReactiveViewModel iOS Tests */ = {
@@ -534,6 +534,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D0948A77178159DA00BA8F23 /* Debug.xcconfig */;
 			buildSettings = {
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				ONLY_ACTIVE_ARCH = YES;
@@ -545,6 +546,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D0948A79178159DA00BA8F23 /* Release.xcconfig */;
 			buildSettings = {
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -612,6 +614,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D0948A78178159DA00BA8F23 /* Profile.xcconfig */;
 			buildSettings = {
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -650,6 +653,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D0948A7A178159DA00BA8F23 /* Test.xcconfig */;
 			buildSettings = {
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				TARGETED_DEVICE_FAMILY = "1,2";
