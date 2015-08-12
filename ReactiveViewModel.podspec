@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
     :tag => "#(s.version)"
   }
   s.source_files = 'ReactiveViewModel/*.{h,m}' 
-  s.dependency 'ReactiveCocoa', '~> 2.4'
+  s.dependency 'ReactiveCocoa', '3.0-beta9'
   
   s.prepare_command = <<-'END'
     find . \( -regex '.*EXT.*\.[mh]$' -o -regex '.*metamacros\.[mh]$' \) -execdir mv {} RAC{} \;
